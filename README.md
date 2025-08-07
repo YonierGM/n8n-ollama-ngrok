@@ -15,7 +15,7 @@ Este proyecto permite levantar localmente una instancia de **n8n** conectada con
 
 - Docker
 - [Ngrok](https://ngrok.com/download) (coloca el ejecutable en la raíz del proyecto)
-- [modelo de ollama instalado en el contenedor de ollama en docker]
+- modelo de ollama instalado en el contenedor de ollama en docker
 
 ## ▶️ Cómo usar
 
