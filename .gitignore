@@ -1,0 +1,58 @@
+# Ignorar todo dentro de las carpetas excepto .gitkeep
+volumes/n8n-data/*
+!volumes/n8n-data/.gitkeep
+
+volumes/ollama-data/*
+!volumes/ollama-data/.gitkeep
+
+*.exe
+# Ignorar archivos ejecutables
+*.exe
+*.dll
+*.so
+*.out
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+venv/
+.env.*
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Archivos temporales
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.~ 
+
+# Entornos
+.env
+.env.*
+
+# Git
+*.orig
